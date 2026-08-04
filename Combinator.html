@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div h1{
+            color:aqua;
+            background-color: bisque;
+            text-align:center;
+        }
+
+        div>p{
+            color:red;
+            background-color:black;
+            text-align:center;        
+        }
+        div>span>p{
+            color:blue;
+            background-color:black;
+            text-align:center;        
+        }
+         p+h2{
+            color:pink;
+            background-color:black;
+            text-align:center;        
+        }
+         p+h1{
+            color:yellow;
+            background-color:black;
+            text-align:center;        
+        }
+        h1~h2{
+            color:white
+            background-color:black;
+            text-align:center;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- DESCENDANT SELECTOR(SPACE) -->
+    <div>
+        <h1>MESSI</h1>
+        <h1>NEYMAR</h1>
+        <span>
+            <h1>RONALDD</h1>
+        </span>
+        <span>
+            <h1>SUNIL CHETHRI</h1>
+        </span>
+    </div>
+
+    <!-- CHILD SELECTOR (>) -->
+     <div>
+        <p>RONI</p>
+        <p>ISKO</p>
+        <span>
+            <p>LAWANDOSKI</p>
+               </span>
+            <span>
+                <p>YAMAL</p>
+            </span>
+     
+     </div>
+
+     <!-- ADJACENT SIBLING SELECTOR (+) -->
+
+     <h1>DHONI</h1>
+     <p>KHOLI</p>
+     <h2>ROHIT</h2>
+     <p>PANDYA</p>
+     <h1>RAHUL</h1>
+
+     <!-- GENERAL SIBLING SELECTOR (~) -->
+
+     <h1>SACHIN</h1>
+     <h2>DRAVIT</h2>
+     <h3>ZAHIR</h3>
+     <h2>SHAMI</h2>
+
+</body>
+</html>
