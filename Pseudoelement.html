@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo1::first-letter{
+            color:red;
+        }
+
+        p::first-line{
+            color:red
+        }
+        #demo2::before{
+            content:"Good";
+            color: blue;
+            
+        }
+        #demo3::after{
+            content:"Morning";
+            color:blue;
+        }
+        ol>li::marker{
+            color:red;
+        }
+        #demo4::marker{
+            color: aqua;
+        }
+         #demo5::marker{
+            color: green;
+        }
+         #demo6::marker{
+            color: yellow;
+        }
+        #demo7::selection{
+            color:white;
+            background-color: red;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!-- FIRST LETTER -->
+    <h1 id="demo1">Hello World</h1>
+    <hr>
+
+    <!-- FIRST LINE -->
+     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odio natus, incidunt commodi error praesentium officiis facere animi, dicta nesciunt unde placeat iusto! Voluptas quae dolores voluptatem unde placeat sint officia quos? Odio sunt odit unde qui possimus quia, officia enim, distinctio dolorem vel reprehenderit quod a fugit quasi consequuntur!</P>
+     <hr>
+
+     <!-- BEFORE -->
+      <h1 id="demo2">Morning</h1>
+      <hr>
+
+      <!-- AFTER -->
+       <h1 id="demo3">Good</h1>
+       <hr>
+
+       <!-- MARKER -->
+       <ol>
+        <li id="demo4">Apple</li>
+        <li id="demo5">Banana</li>
+        <li id="demo6">Orange</li>
+       </ol>
+       <hr>
+
+       <!-- SELECTION -->
+
+    <P id="demo7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, alias ex. Dignissimos sit accusantium iure praesentium ipsam! Vero natus ipsa ducimus aperiam asperiores! Molestiae nam quasi repudiandae, laudantium aliquam mollitia pariatur consequuntur blanditiis dolorem atque voluptatem aspernatur quis asperiores et incidunt a facere iste similique quo sequi eum consectetur. Quia.</P>
+
+
+</body>
+</html>
